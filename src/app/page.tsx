@@ -43,7 +43,7 @@ const Navigation = () => {
     <nav className="fixed top-0 w-full p-4 bg-black/80 backdrop-blur-lg z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <a href="#" className="text-white text-xl font-semibold hover:opacity-80 transition-opacity">
-          Eshaan Ghosh
+          Dr. Eshaan Ghosh
         </a>
         
         {/* Mobile Menu Button */}
@@ -98,7 +98,7 @@ const Hero = () => {
   return (
     <section className="h-screen flex flex-col justify-center items-center text-center p-4 md:p-8 gap-6 md:gap-8">
       <h1 className="text-5xl md:text-9xl font-bold bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-        Eshaan Ghosh
+        Dr. Eshaan Ghosh
       </h1>
       <div className="flex flex-col gap-4 md:gap-6">
         <p className="text-xl md:text-2xl text-white/80">AI Product Leader & Innovation Strategist</p>
