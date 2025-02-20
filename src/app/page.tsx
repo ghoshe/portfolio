@@ -39,10 +39,6 @@ const Navigation = () => {
     { href: "#contact", label: "Contact" }
   ];
 
-  const handleMenuClick = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   return (
     <nav className="fixed top-0 w-full p-4 bg-black/80 backdrop-blur-lg z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
@@ -315,7 +311,7 @@ const Education = () => {
 };
 
 // Project Card Component
-const ProjectCard: React.FC<ProjectItem> = ({ title, description, image, tags, link }) => (
+const ProjectCard: React.FC<ProjectItem> = ({ title, description, image, tags }) => (
   <div className="bg-white/5 rounded-2xl overflow-hidden hover:-translate-y-1 transition-transform">
     <div className="h-48 bg-gradient-to-br from-gray-800 to-gray-600 flex items-center justify-center text-2xl font-semibold">
       {image}
