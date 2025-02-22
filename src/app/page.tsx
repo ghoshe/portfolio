@@ -4,6 +4,7 @@
 import React, { useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import Image from 'next/image';
+import Logo from './Logo';
 import { Send } from 'lucide-react';
 
 // TypeScript Interfaces
@@ -42,8 +43,9 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 w-full p-4 bg-black/80 backdrop-blur-lg z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <a href="#" className="text-white text-xl font-semibold hover:opacity-80 transition-opacity">
-          Dr. Eshaan Ghosh
+        <a href="#" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <Logo />
+          <span className="text-white text-xl font-semibold">Dr. Eshaan Ghosh</span>
         </a>
         
         {/* Mobile Menu Button */}
